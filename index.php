@@ -5,7 +5,7 @@ use Cowsayphp\Farm;
 
 header('Content-Type: text/plain');
 
-$text = "Another new message";
+$text = "Back to the beginning";
 if(isset($_GET['message']) && $_GET['message'] != '') {
 	$text = htmlspecialchars($_GET['message']);
 }
