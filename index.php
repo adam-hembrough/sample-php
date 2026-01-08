@@ -5,7 +5,7 @@ use Cowsayphp\Farm;
 
 header('Content-Type: text/plain');
 
-$text = "Updated message goes here";
+$text = "Another new message";
 if(isset($_GET['message']) && $_GET['message'] != '') {
 	$text = htmlspecialchars($_GET['message']);
 }
